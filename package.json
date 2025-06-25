@@ -1,0 +1,29 @@
+{
+    "name": "react-portfolio-site",
+    "version": "1.0.0",
+    "description": "Aryan Yadav's personal Portfolio",
+    "author": "Aryan Yadav",
+    "license": "MIT",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@react-three/drei": "^9.89.3",
+        "@react-three/fiber": "^8.15.5",
+        "axios": "^1.6.8",
+        "framer-motion": "^11.0.17",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.23.0",
+        "three": "^0.161.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.0.4",
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.1",
+        "vite": "^5.2.8"
+    }
+}
