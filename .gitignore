@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# production
+dist/
+.vite/
+
+# system
+.DS_Store
+
+# environment
+.env
+*.log
