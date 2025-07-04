@@ -3,9 +3,17 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=JetBrains+Mono&family=UnifrakturCook&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Trade+Winds&display=swap');
 
 body {
     @apply font-sans bg-[#0d0d0d] text-white scroll-smooth;
+}
+
+.font-pirate {
+  font-family: 'Pirata One', cursive;
+}
+.font-script {
+  font-family: 'Trade Winds', cursive;
 }
 
 .font-fraktur {
