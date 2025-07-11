@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=JetBrains+Mono&family=UnifrakturCook&display=swap');
+
+body {
+    @apply font-sans bg-[#0d0d0d] text-white scroll-smooth;
+}
+
+.font-fraktur {
+    font-family: 'UnifrakturCook', cursive;
+}
+
+.font-fell {
+    font-family: 'IM Fell English SC', serif;
+}
+
+.pirate-glow {
+    text-shadow: 0 0 10px #facc15, 0 0 20px #facc15, 0 0 40px #facc15;
+}
+
+@keyframes wave {
+    0%, 100% {transform: translateX(0);}
+    50% {transform: translateX(-50%);}
+}
+
+.animate-wave {
+    animation: wave 8s ease-in-out infinite;
+}
+
+@keyframes slow-sway {
+    0%, 100% {transform: translateX(0);}
+    50% {transform: translateX(-10px);}
+}
+
+.animate-slow-sway {
+    animation: slow-sway 10s ease-in-out infinite;
+}
