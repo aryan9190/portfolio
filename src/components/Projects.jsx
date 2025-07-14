@@ -6,7 +6,7 @@ export default function Projects() {
     const [repos, setRepos] = useState([]);
 
     useEffect(() => {
-        axios.get('https://api.hithub.com/users/aryan9190/repos')
+        axios.get('https://api.github.com/users/aryan9190/repos')
         .then(res => setRepos(res.data))
         .catch(() => setRepos([]));
     }, []);
