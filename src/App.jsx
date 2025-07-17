@@ -11,8 +11,8 @@ import Contact from './pages/Contact';
 export default function App() {
   return (
     <div className="bg-gradient-to-br from-[#0d0d0d] to-[#1f1f2e] text-white font-fell scroll-smooth relative overflow-x-hidden">
-      <div className="fixed top-2 right-2 z-50 bg-yellow-300 text-black px-3 py-1 rounded shadow-lg font-mono text-xs animate-pulse">
-        🛠️ WIP
+      <div className="fixed top-2 right-2 z-[9999] bg-yellow-300 text-black px-3 py-1 rounded shadow-lg font-mono text-xs animate-pulse">
+        WIP
       </div>
       <ParallaxBackground />
       <Particles />
